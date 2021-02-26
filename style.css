@@ -3,7 +3,6 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: #dfdfdf;
 }
 
 body {
@@ -22,6 +21,7 @@ body::-webkit-scrollbar {
 }
 
 h1 {
+  color: #f7f7f7;
   font-size: 4rem;
   margin-bottom: 0.6em;
 }
@@ -31,12 +31,14 @@ h1 span {
 }
 
 h2 {
+  color: #f7f7f7;
   font-size: 3rem;
   margin-bottom: .5em;
   text-shadow: 0px 0px 2px #000;
 }
 
 h3 {
+  color: #f7f7f7;
   font-size: 2rem;
 }
 
@@ -46,6 +48,7 @@ p {
 }
 
 a {
+  color: #f7f7f7;
   text-decoration: none;
 }
 
@@ -149,8 +152,20 @@ a {
   font-size: 100px;
 }
 
-.links .fa-linkedin-in {
+.links .fab {
   font-size: 100px;
+}
+
+.links .fa-envelope {
+  color: #E34133;
+}
+
+.links .fa-github {
+  color: #dfdfdf;
+}
+
+.links .fa-linkedin-in {
+  color: #0A66C2;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;  
-  color: #dfdfdf;
+  
 }
 
 
@@ -25,6 +25,7 @@ body::-webkit-scrollbar {
 // Typography
 
 h1 {
+  color: #f7f7f7;
   font-size: 4rem;
   margin-bottom: 0.6em;
   span {
@@ -35,12 +36,14 @@ h1 {
 }
 
 h2 {
+  color: #f7f7f7;
   font-size: 3rem;
   margin-bottom: .5em;
   text-shadow: 0px 0px 2px #000;
 }
 
 h3 {
+  color: #f7f7f7;
   font-size: 2rem;
   // text-shadow: 0px 0px 2px #000;
   // text-decoration: solid #000;
@@ -52,6 +55,7 @@ p {
 }
 
 a {
+  color: #f7f7f7;
   text-decoration: none;
 }
 
@@ -149,26 +153,20 @@ a {
     padding: 100px 50px;
     font-size: 100px;
   }
-  .fa-linkedin-in {
+  .fab {
     font-size: 100px;
   }
+  .fa-envelope {
+    color: #E34133;
+  }
+  .fa-github {
+    color: #dfdfdf;
+  }
+  .fa-linkedin-in {
+    // font-size: 100px;
+    color: #0A66C2;
+  }
 }
-
-// input, label, textarea {
-//   display: block;
-//   width: 100%;
-// }
-
-// .contact-section h2 {
-//   text-align: center;
-//   margin: 100px auto auto auto;
-// }
-
-// i {
-//   color: red;
-//   font-size: 100px;
-  
-// }
 
 
 
