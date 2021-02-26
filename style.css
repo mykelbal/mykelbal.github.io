@@ -1,0 +1,182 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #dfdfdf;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  font-size: 20px;
+  background-image: url(/img/bg-poly.jpg);
+  background-size: 100vw;
+  background-repeat: repeat;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0.6em;
+}
+
+h1 span {
+  color: #ff00dd;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: .5em;
+  text-shadow: 0px 0px 2px #000;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navbar a {
+  margin: 10px 20px;
+}
+
+.hero-section {
+  height: 100vh;
+  background: #000;
+}
+
+.hero-section .text {
+  margin: 0 0 0 100px;
+  padding-top: 30vh;
+}
+
+.example-section {
+  width: 100vw;
+  padding-top: 100px;
+}
+
+.examples {
+  width: 60vw;
+  margin: auto;
+}
+
+.examples h2 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.examples h3 {
+  color: #000;
+}
+
+.work-example-card {
+  height: 400px;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 50px;
+  background: rgba(249, 224, 250, 0.616);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.work-example-card .img-preview {
+  width: 400px;
+  height: 400px;
+}
+
+.work-example-card .img-preview img {
+  width: 300px;
+  margin: 50px;
+}
+
+.work-example-card .example-info {
+  width: 550px;
+  margin: 50px auto 50px auto;
+}
+
+.work-example-card .example-info h3 {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.work-example-card .example-info p {
+  padding: auto 25px auto 25px;
+}
+
+.contact-section {
+  padding-top: 100px;
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #000;
+  display: block;
+  text-align: center;
+}
+
+.links i {
+  padding: 100px 50px;
+  font-size: 100px;
+}
+
+.links .fa-linkedin-in {
+  font-size: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 16px;
+  }
+  body {
+    background-size: 100%;
+  }
+  .hero-section {
+    margin: 20vh 70px 0 70px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 14px;
+  }
+  .hero-section .text {
+    margin: 20vh 20px 0 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
